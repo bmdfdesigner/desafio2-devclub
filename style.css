@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+header {
+    margin: 20px 50px 100px 50px;
+}
+
+main {
+    margin-left: 100px;
+
+}
+
+.image-main {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    vertical-align: middle;
+
+
+}
+
+section {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+
+.link-header {
+    text-decoration: none;
+    width: 87;
+    height: 20;
+    top: 47px;
+    left: 42px;
+    margin: 0 20px 144px 20px;
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+
+}
+
+.button-header {
+    width: 124;
+    height: 51;
+    top: 32px;
+    left: 420px;
+    border-radius: 6px;
+    border-width: 1px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #FFF;
+    padding: 15px 40px;
+    margin-left: 10px;
+
+}
+
+.link-section {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    width: 582px;
+    
+    top: 342px;
+    left: 801px;
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    Margin: 40px 0;
+}
+
+@media screen and (max-width: 600px) {
+
+ 
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    a.link-header {
+        display: none;
+    }
+    .button-header {
+        margin-right: 10px;
+    }
+
+    .button-header.active {
+        opacity: 0.8;
+        cursor: pointer;
+        
+    }
+
+    .image-main {
+        width: 312px;
+        height: 288px;
+        display: relative;
+        margin: 0 auto;
+    }
+
+    main {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h1,
+    p,
+    .link-section {
+        margin: 0 auto;
+
+    }
+
+    h1,
+    p {
+        width: 312px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+
+}
